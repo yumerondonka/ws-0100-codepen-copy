@@ -1,0 +1,111 @@
+html {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+.l-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.l-sidebar {
+  min-width: 188px;
+  height: 100vh;
+}
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid blue;
+  width: 154px;
+  padding: 0px;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.button-logo-text {
+  width: 100%;
+}
+
+.codepen-logo {
+  display: inline-block;
+  font-size: 30px;
+  margin: 20 0 px;
+}
+h1.codepen-logo {
+  display: inline-block;
+}
+
+.sidebar {
+  background: #1F1F26;
+}
+
+.sidebar-menu a {
+  display: block;
+  padding-left: 16px;
+}
+
+.get-start-text {
+  margin: 0.2em;
+  font-size: 0.8em;
+  text-align: center;
+  color: #b7bbc8;
+}
+
+.sidebar-menu-list {
+  padding-left: 0px;
+}
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px;
+  padding-left: 0px;
+}
+
+.sidebar-menu-title {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  margin-left: 16px;
+}
+
+.text-warning {
+  color: #ffdd40;
+}
+
+.text-primary {
+  color: #47cf73;
+}
+
+.text-accent {
+  color: #0ebeff;
+}
+
+.text-weak {
+  color: #b7bbc8;
+}
+
+/*# sourceMappingURL=style.css.map */

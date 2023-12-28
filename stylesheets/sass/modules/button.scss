@@ -11,8 +11,34 @@
     border-radius:4px;
     text-align:center;
     padding: 8px 16px;
+    min-width: 100px;
+
+:hover{
+    opacity: 0.4;
+    cursor: pointer;
 }
+
+}
+
+/*
+.button:hover{
+    opacity: 0.4;
+    cursor: pointer;
+} */
 
 .button-logo-text{
     width: 100%;
+}
+
+.button-primary{
+    border: 0;
+    background: #47cf73;
+    color: black;
+    margin-right: 8px;
+}
+
+.button-secondary{
+    border: 0;
+    background: #444857;
+    margin-right: 8px;
 }

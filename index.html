@@ -4,8 +4,8 @@
     <title>Code Pen Copy</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-    <link rel="stylesheet" type="text/scss" href="stylesheets/sass/base.scss">
-    <link rel="stylesheet" type="text/scss" href="stylesheets/sass/index.scss">
+    <!-- <link rel="stylesheet" type="text/scss" href="stylesheets/sass/base.scss">
+    <link rel="stylesheet" type="text/sass" href="stylesheets/sass/index.sass">
     <link rel="stylesheet" type="text/scss" href="stylesheets/sass/layout.scss">
     <link rel="stylesheet" type="text/scss" href="stylesheets/sass/state.scss">
     <link rel="stylesheet" type="text/scss" href="stylesheets/sass/theme.scss">
@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/scss" href="stylesheets/sass/modules/product-item.scss">
     <link rel="stylesheet" type="text/scss" href="stylesheets/sass/modules/search-form.scss">
     <link rel="stylesheet" type="text/scss" href="stylesheets/sass/modules/sidebar-menu.scss">
+    -->
 
 
     <!-- font-awesome -->
@@ -32,7 +33,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet">
   </head>
   <body>
-    <div class="l-flex l-container">
+    <div class="l-flex"> <!-- Write code for Sidebar-->
       <div class="l-sidebar sidebar">
           <!-- Write code for Sidebar-->
           <h1 class="codepen-logo">C
@@ -99,13 +100,50 @@
       <main class="l-main">
       <header class="l-header">
         <!-- Write code for Header-->
+        <div class="l-flex search-form">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input class="search-form-input" type="text" placeholder="Search CodePen...">
+        </div>
+        <div class="l-flex header-buttons">
+          <a class="button button-primary">Sign Up</a>
+          <a class="button button-secondary"> Log In</a>
+        </div>
       </header>
+
+
+
       <div class="l-content">
         <section class="l-section">
           <div class="hero">
-             <!-- Write code for Hero-->
+            <div class="hero-body">
+            <!-- Write code for Hero-->
+            <div class="hero-body-description">
+              <div class="hero-logo"><i class="fa fa-cube" aria-hidden="true"></i></div>
+              <h1 class="hero-body-description-title">The best place to build, test, and discover front-end code.</h1>
+              <p class="hero-body-description-text">CodePen is a<span class="text-bold">for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.</span></p>
+              <div class="hero-footer">
+                <a class="button button-primary">Sign Up for Free</a>
+            </div> 
+            </div>
+
+            <div class="hero-body-image">
+              <div class="hero-body-image-card">
+                <div class="code-card code-card-html">
+                  <div class="l-flex l-align-center code-card-header">
+                    <div class="l-flex l-align-center code-card-title">
+                      <i class="fa fa-cog" aria-hidden="true"></i>
+                      <h4>HTML</h4>
+                    </div>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="code-card code-card-scss"></div>
+                <div class="code-card code-card-js"></div>
+              </div>
+            </div>
+
+            </div>
           </div>
-      </div>
         </section>
         <section class="l-section">
           <div class="l-flex l-flex-wrap features">
@@ -117,8 +155,9 @@
              <!-- Write code for Product List-->
           </div>
         </section>
+      </div>
         <footer class="l-footer l-flex l-flex-wrap footer">
-             <!-- Write code for Footer List-->
+<!-- Write code for Footer List-->
         </footer>
       </main>
     </div>

@@ -1,0 +1,251 @@
+html {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+.l-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.l-sidebar {
+  min-width: 188px;
+  height: 100vh;
+}
+
+.l-header {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+}
+
+.l-section {
+  margin: 32px 0;
+}
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid blue;
+  width: 154px;
+  padding: 0px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px 16px;
+  min-width: 100px;
+}
+.button :hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+/*
+.button:hover{
+    opacity: 0.4;
+    cursor: pointer;
+} */
+.button-logo-text {
+  width: 100%;
+}
+
+.button-primary {
+  border: 0;
+  background: #47cf73;
+  color: black;
+  margin-right: 8px;
+}
+
+.button-secondary {
+  border: 0;
+  background: #444857;
+  margin-right: 8px;
+}
+
+/* 
+// Medium devices
+@mixin md
+   @media (max-width: 768px)
+       @content
+
+// Large devices
+@mixin lg
+   @media (max-width: 992px)
+       @content
+
+// Extra large devices
+@mixin xl
+   @media (max-width: 1200px)
+       @content
+*/
+/*      
+// Small devices
+@mixin sm
+   @media (max-width: 576px)
+       @content
+
+// Medium devices
+@mixin md
+   @media (max-width: 768px)
+       @content
+
+// Large devices
+@mixin lg
+   @media (max-width: 992px)
+       @content
+
+// Extra large devices
+@mixin xl
+   @media (max-width: 1200px)
+       @content
+*/
+.hero {
+  margin: 32px;
+}
+
+.hero-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-logo {
+  font-size: 36px;
+}
+
+.hero-body-description-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero-body-description {
+  width: 50%;
+  padding: 32px;
+}
+@media screen and (max-width: 576px) {
+  .hero-body-description {
+    width: 100%;
+  }
+}
+
+.hero-body-image {
+  width: 50%;
+}
+
+.hero-body-image-card {
+  width: 495px;
+  height: 410px;
+  background: pink;
+}
+
+.header-buttons {
+  padding: 8px;
+}
+
+.codepen-logo {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  background: #252830;
+  width: 100%;
+}
+.search-form i {
+  font-size: 20px;
+}
+
+.search-form-input {
+  margin-left: 16px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: #252830;
+  border: 0;
+}
+
+.sidebar {
+  background: #1F1F26;
+}
+
+.sidebar-menu a {
+  display: block;
+  padding-left: 16px;
+}
+
+.get-start-text {
+  margin: 0.2em;
+  font-size: 0.8em;
+  text-align: center;
+  color: #b7bbc8;
+}
+
+.sidebar-menu-list {
+  padding-left: 0px;
+}
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px;
+  padding-left: 0px;
+}
+
+.sidebar-menu-title {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  margin-left: 16px;
+}
+
+.text-warning {
+  color: #ffdd40;
+}
+
+.text-primary {
+  color: #47cf73;
+}
+
+.text-accent {
+  color: #0ebeff;
+}
+
+.text-weak {
+  color: #b7bbc8;
+}
+
+/*# sourceMappingURL=style.css.map */

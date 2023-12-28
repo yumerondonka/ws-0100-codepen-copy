@@ -1,0 +1,26 @@
+@use '../layout' ;
+@use '../variable' as v;
+
+
+
+.search-form{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+    background: v.$search-form-background;
+    width: 100%;
+
+i{
+    font-size: 20px; 
+}
+}
+
+.search-form-input{
+    margin-left: 16px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    background: #252830;
+    border: 0;
+}
+

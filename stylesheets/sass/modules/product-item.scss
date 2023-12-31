@@ -1,0 +1,72 @@
+@use '../variable' as v;
+
+.product-item{
+    background: v.$card-gray;
+    width: 360px;
+    margin: 2rem 1rem;
+}
+.product-item-card{
+    border-radius: 4px;
+    background: v.$card-gray
+}
+.product-item-row{
+    justify-content: center;
+}
+.product-item-list-footer{
+    display: flex;
+    justify-content: center;
+}
+.product-message{
+    padding: 16px;
+}
+.product-message-body{
+    color: v.$lightgray;
+    margin-bottom: 16px;
+    
+}
+
+.product-item-card-image {
+    width: 350px;
+    border-radius: 4px;
+    margin: auto;
+    padding: 8px;
+img{
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}}
+
+.product-item-card-body-avator{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+img{
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+}
+.product-item-card-body{
+    display: flex;
+    padding: 16px;
+    padding-top: 0;
+}
+.product-item-card-body-title{
+    margin-left: 1rem;
+p{
+    margin: 0;
+}
+}
+.product-item-card-body-title-text{
+    margin: 0;
+}
+.product-item-card-footer-card{
+    background: v.$black;
+    border-radius: 4px;
+    margin-right: 4px;
+    padding: 2px 4px;
+}
+
+.product-item-card-footer{
+    padding: 8px 16px;
+}

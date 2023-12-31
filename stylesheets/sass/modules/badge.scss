@@ -1,0 +1,11 @@
+@use '../variable' as v;
+
+.badge{
+    background: v.$warning-color;
+    margin-left: 4px;
+    padding: 2px 4px;
+    font-size: 10px;
+    color: v.$black;
+    border-radius: 4px;
+    font-weight: bold;
+}

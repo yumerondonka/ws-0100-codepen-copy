@@ -1,13 +1,21 @@
-//@use '../layout' as v
+@use '../variable' as v;
+@use '../mixin' as m;
+
 
 .sidebar{
-    background:#1F1F26;
+    background:v.$weak-black;
+    @include m.sm{
+        display: none;
+    }
 }
 
 .sidebar-menu{
     a{
         display: block;
         padding-left: 16px;
+    }
+    a:hover {
+        background: v.$black;
     }
 }
 

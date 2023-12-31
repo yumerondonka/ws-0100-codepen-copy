@@ -23,8 +23,7 @@
     padding: 32px;
     @include m.sm{
         width: 100%;
-    }
-}
+    }}
 
 .hero-body-image{
     width: 50%;
@@ -32,5 +31,17 @@
 .hero-body-image-card {
     width: 495px;
     height: 410px;
-    background: pink;
+    border-radius: 6px;
+    margin: 16px auto;
+    @include m.sm{
+        width: 100%;
+    }
+    background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+}
+
+.hero-footer{
+    &button{
+        width: 200px;
+        font-size: 1.4em;
+    }
 }

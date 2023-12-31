@@ -12,8 +12,9 @@
 
 .l-sidebar{
     min-width:188px;
-    height:100vh;
+    height:100%;
 }
+
 
 .l-header{
     display: flex;
@@ -26,4 +27,15 @@
 
 .l-section {
     margin: 32px 0;
+}
+
+.l-margin-left-2rem{
+    margin-left: 2rem !important;
+}
+.l-margin-left-4rem{
+    margin-left: 4rem !important;
+}
+
+body{
+    height:100%;
 }

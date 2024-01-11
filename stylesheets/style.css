@@ -132,8 +132,14 @@ body {
   width: 64px;
   border-radius: 6px;
   text-align: center;
+  /*&fa{
+      font-size: 48px;
+      position: relative;
+      top:8px
+  }*/
 }
-.card-iconfa {
+
+.card-icon .fa {
   font-size: 48px;
   position: relative;
   top: 8px;
@@ -147,6 +153,10 @@ body {
   margin: 16px 0;
 }
 
+.product-message {
+  padding: 16px;
+}
+
 .product-item {
   background: #2c303a;
   width: 360px;
@@ -156,6 +166,12 @@ body {
 .product-item-card {
   border-radius: 4px;
   background: #2c303a;
+  transition: 0.2s;
+}
+.product-item-card:hover {
+  transform: scale(1.05);
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .product-item-row {
@@ -359,6 +375,10 @@ body {
   margin-right: 1rem;
 }
 
+.l-align-center {
+  padding-left: 0;
+}
+
 .hero {
   margin: 32px;
 }
@@ -405,16 +425,26 @@ body {
   }
 }
 
-.hero-footerbutton {
+/*.hero-footer{
+    &button{
+        width: 200px;
+        font-size: 1.4em;
+    }
+}*/
+.hero-footer .button {
   width: 200px;
   font-size: 1.4em;
+}
+
+.hero-body-description-text {
+  font-size: 1.1rem;
 }
 
 .header-buttons {
   padding: 8px;
 }
 
-.button {
+.header-buttons .button {
   margin-right: 8px;
   min-width: 100px;
 }
@@ -502,6 +532,10 @@ body {
 
 .text-weak {
   color: #b7bbc8;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

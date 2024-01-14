@@ -38,7 +38,6 @@ ul {
 
 .l-sidebar {
   min-width: 188px;
-  height: 100%;
 }
 
 .l-header {
@@ -76,14 +75,6 @@ body {
   font-weight: bold;
 }
 
-.button-logo {
-  margin: 0 16px;
-  border: 3px solid none;
-  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
-  width: 154px;
-  padding: 0px;
-}
-
 .button {
   display: inline-block;
   border: 3px solid #aaaebc;
@@ -94,6 +85,14 @@ body {
 .button:hover {
   opacity: 0.4;
   cursor: pointer;
+}
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  width: 154px;
+  padding: 0px;
 }
 
 .button-logo-text {
@@ -306,11 +305,6 @@ body {
   }
 }
 
-.code-card-header {
-  padding: 4px 8px;
-  justify-content: space-between;
-}
-
 .code-card-titlefa {
   color: #b7bbc8;
 }
@@ -342,6 +336,64 @@ body {
 
 .hilight-blue {
   color: #7a99ad;
+}
+
+.code-card {
+  margin-bottom: 8px;
+  width: 300px;
+  height: 140px;
+  font-size: 13px;
+}
+
+.code-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .code-card-html {
+    left: 120px;
+  }
+}
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .code-card-scss {
+    left: 160px;
+  }
+}
+
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .code-card-js {
+    left: 120px;
+  }
+}
+
+.code-card-header {
+  padding: 4px 8px 4px 8px;
+  justify-content: space-between;
+}
+
+.code-card-body {
+  padding: 8px;
+  padding-top: 0;
+}
+.code-card-body p {
+  margin: 0;
+}
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px;
 }
 
 .features {

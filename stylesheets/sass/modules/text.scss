@@ -1,19 +1,19 @@
-//@use '../variable' 
+@use '../variable' as v;
 
 .text-warning{
-    color:#ffdd40;
+    color:v.$warning-color;
 }
 
 .text-primary{
-    color: #47cf73;
+    color: v.$primary-color;
 }
 
 .text-accent{
-    color: #0ebeff;
+    color: v.$accent-color;
 }
 
 .text-weak{
-    color: #b7bbc8;
+    color: v.$lightgray;
 }
 
 .text-bold{

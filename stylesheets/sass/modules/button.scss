@@ -23,13 +23,13 @@
     display: block;
     width: 100%;
     padding: 8px;
-    background: black;
+    background:v.$font-color-background-color;
 }
 
 .button-primary{
     border: 0;
     background: #47cf73;
-    color: black;
+    color: v.$font-color-background-color;
     margin-right: 8px;
 }
 

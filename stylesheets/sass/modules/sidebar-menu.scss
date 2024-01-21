@@ -15,7 +15,7 @@
         padding-left: 16px;
     }
     a:hover {
-        background: v.$black;
+        background: v.$search-form-background;
     }
 }
 
@@ -23,7 +23,7 @@
     margin:0.2em;
     font-size:0.8em;
     text-align: center;
-    color:#b7bbc8;
+    color:v.$lightgray;
 }
 
 .sidebar-menu-list{

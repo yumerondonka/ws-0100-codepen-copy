@@ -3,7 +3,7 @@
 
 .code-card{
     margin-bottom: 8px;
-    background: #1d1e22;
+    background: v.$background-color;
     border-radius: 6px;
     width: 300px;
     height: 140px;
@@ -37,11 +37,14 @@
     }
 }
 
-.code-card-title{
-    &fa{
-        color: v.$lightgray;
+.code-card-header{
+    padding: 4px 8px;
+    justify-content: space-between;
+    fa::before{
+        color: v.$lightgray
     }
 }
+
 
 .code-card-title-text{
     margin: 0;
@@ -100,11 +103,6 @@
     @include m.sm{
         left: 120px
 }}
-
-.code-card-header{
-    padding: 4px 8px 4px 8px;
-    justify-content: space-between;
-}
 
 .code-card-body{
     padding: 8px;

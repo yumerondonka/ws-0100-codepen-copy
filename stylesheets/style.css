@@ -1,5 +1,5 @@
 html {
-  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma", "Sans-Serif";
   line-height: 1.5;
   font-size: 15px;
   font-weight: 400;
@@ -9,11 +9,15 @@ body {
   padding: 0;
   margin: 0;
   background: #131417;
+  height: 100%;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
   color: #FFFFFF;
+}
+*:hover, *:before:hover, *:after:hover {
+  cursor: pointer;
 }
 
 a {
@@ -45,7 +49,7 @@ ul {
   align-items: center;
 }
 
-.main {
+.l-main {
   width: 100%;
 }
 
@@ -59,10 +63,6 @@ ul {
 
 .l-margin-left-4rem {
   margin-left: 4rem !important;
-}
-
-body {
-  height: 100%;
 }
 
 .badge {
@@ -131,11 +131,11 @@ body {
   width: 64px;
   border-radius: 6px;
   text-align: center;
-  /*&fa{
-      font-size: 48px;
-      position: relative;
-      top:8px
-  }*/
+}
+.card-icon fa {
+  font-size: 48px;
+  position: relative;
+  top: 8px;
 }
 
 .card-icon .fa {
@@ -242,30 +242,9 @@ body {
   padding: 8px 16px;
 }
 
-/*      
-// Small devices
-@mixin sm
-   @media (max-width: 576px)
-       @content
-
-// Medium devices
-@mixin md
-   @media (max-width: 768px)
-       @content
-
-// Large devices
-@mixin lg
-   @media (max-width: 992px)
-       @content
-
-// Extra large devices
-@mixin xl
-   @media (max-width: 1200px)
-       @content
-*/
 .code-card {
   margin-bottom: 8px;
-  background: #1d1e22;
+  background: #131417;
   border-radius: 6px;
   width: 300px;
   height: 140px;
@@ -305,7 +284,11 @@ body {
   }
 }
 
-.code-card-titlefa {
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+.code-card-header fa::before {
   color: #b7bbc8;
 }
 
@@ -376,11 +359,6 @@ body {
   .code-card-js {
     left: 120px;
   }
-}
-
-.code-card-header {
-  padding: 4px 8px 4px 8px;
-  justify-content: space-between;
 }
 
 .code-card-body {
@@ -545,7 +523,7 @@ body {
   padding-left: 16px;
 }
 .sidebar-menu a:hover {
-  background: black;
+  background: #252830;
 }
 
 .get-start-text {

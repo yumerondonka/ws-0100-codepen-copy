@@ -7,7 +7,7 @@
     background: v.$card-gray;
 }
 .card-icon{
-    background: v.$black;
+    background: v.$font-color-background-color;
     position: relative;
     left: 16px;
     top: 32px;
@@ -15,13 +15,12 @@
     width: 64px;
     border-radius: 6px;
     text-align: center;
-
-    /*&fa{
-        font-size: 48px;
+fa{
+    font-size: 48px;
         position: relative;
         top:8px
-    }*/
-}
+}}
+
 .card-icon .fa {
     font-size: 48px;
     position: relative;

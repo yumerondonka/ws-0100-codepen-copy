@@ -288,7 +288,8 @@ ul {
   padding: 4px 8px;
   justify-content: space-between;
 }
-.code-card-header fa::before {
+
+.code-card-header .fa::before {
   color: #b7bbc8;
 }
 
@@ -374,6 +375,24 @@ ul {
   margin-left: 8px;
 }
 
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .features {
   justify-content: center;
 }
@@ -405,7 +424,7 @@ ul {
   margin-right: 1rem;
 }
 
-.l-align-center {
+.l-align-center ul {
   padding-left: 0;
 }
 

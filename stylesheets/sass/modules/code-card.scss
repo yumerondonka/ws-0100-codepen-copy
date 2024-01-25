@@ -40,9 +40,10 @@
 .code-card-header{
     padding: 4px 8px;
     justify-content: space-between;
-    fa::before{
-        color: v.$lightgray
-    }
+}
+
+.code-card-header .fa::before{
+    color: v.$lightgray
 }
 
 
@@ -114,4 +115,14 @@
 .code-card-title-text{
     margin: 0;
     margin-left: 8px;
+}
+
+.cursor{
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{opacity: 0}
+    50%{opacity: 0}
+    51%{opacity: 1}
+    100%{opacity: 1}
 }
